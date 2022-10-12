@@ -8,10 +8,10 @@ module.exports = {
     './app/views/**/*.{erb,haml,html,slim}'
   ],
   theme: {
+    fontFamily: {
+      sans: ['Plus Jakarta Sans', 'sans-serif', ...defaultTheme.fontFamily.sans],
+    },
     extend: {
-      fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
       colors: {
         'background': '#FFF7F0',
         'galactic-blue': '#755CDE'
