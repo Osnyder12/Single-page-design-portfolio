@@ -1,19 +1,55 @@
 <!-- section is a meanigful container of information -->
 <!-- helps search engines categorize the site -->
 
-<section class="grid grid-cols-1 justify-items-center">
-  <h1 class="col-span-1 lg:text-6xl font-sans-bold">Design solutions made easy</h1>
-  <p class="col-span-1 font-sans lg:text-lg lg:w-32 lg:h-3.5">With over ten years experience in various design disciplines, I'm your one-stop shop for your design needs.</p>
+<section class="w-full max-w-2xl px-4 mx-auto mb-8 space-y-6 text-center lg:px-0 lg:mb-20">
+  <h1 class="text-4xl font-bold">Design solutions made easy</h1>
+  <p class="px-8 font-medium text-medium-brown lg:text-lg lg:px-0">With over ten years experience in various design disciplines, I'm your one-stop shop for your design needs.</p>
 </section>
 
-<!-- <section class="grid lg:grid-cols-3 md:grid-cols-2">
-  <div>
-    large purple secion
+<section class="grid w-full max-w-4xl gap-6 mx-auto mb-24 text-white md:grid-cols-2 lg:grid-cols-3 md:mb-32">
+  <div class="bg-galactic-blue md:h-full h-[364px] rounded-lg relative">
+    <%= image_tag('pattern-graphic-design.svg', class: "absolute top-6 right-6") %>
+    <h2 class="absolute bottom-6 left-6">Graphic Design</h2>
   </div>
-  <div>
-    2 quarter 1 half section
+  <div class="grid grid-cols-2 gap-6 lg:col-span-1">
+    <div class="relative h-40 rounded-lg bg-summer-yellow">
+      <%= image_tag('pattern-ui-ux.svg', class: "absolute top-6 right-6") %>
+      <h2 class="absolute bottom-6 left-6">UI/UX</h2>
+    </div>
+    <div class="relative h-40 rounded-lg bg-salmon">
+      <%= image_tag('pattern-apps.svg', class: "absolute top-6 right-6") %>
+      <h2 class="absolute bottom-6 left-6">Apps</h2>
+    </div>
+    <div class="relative h-40 col-span-2 rounded-lg bg-light-red">
+      <%= image_tag('pattern-illustrations.svg', class: "absolute top-6 right-6") %>
+      <h2 class="absolute bottom-6 left-6">Illustrations</h2>
+    </div>
   </div>
-  <div>
-    2 halfs section
+  <div class="grid gap-6 md:grid-cols-2 md:col-span-2 lg:col-span-1">
+    <div class="relative h-40 rounded-lg bg-cyan lg:col-span-2">
+      <%= image_tag('pattern-photography.svg', class: "absolute top-6 right-6") %>
+      <h2 class="absolute bottom-6 left-6">Photography</h2>
+    </div>
+    <div class="relative h-40 rounded-lg bg-deep-purple lg:col-span-2">
+      <%= image_tag('pattern-motion-graphics.svg', class: "absolute top-6 right-6") %>
+      <h2 class="absolute bottom-6 left-6">Motion Graphics</h2>
+    </div>
   </div>
-</section> -->
+</section>
+
+<section class="flex flex-col max-w-4xl gap-10 mx-auto md:gap-16 md:space-x-6 md:items-center md:flex-row">
+  <div class="flex justify-center flex-shrink-0 md:justify-start">
+    <%= image_tag('image-amy.webp', class: "lg:w-[445px] md:w-[364px] w-[300px]") %>
+  </div>
+
+  <div class="space-y-6 lg:space-y-8">
+    <h2 class="text-4xl font-bold">I’m Amy, and I’d love to work on your next project</h2>
+    <p class="px-8 font-medium text-medium-brown lg:text-lg lg:px-0">
+      I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!
+    </p>
+    <button class="text-white transition-colors duration-300 rounded-full bg-light-red h-14 px-11 hover:bg-galactic-blue focus:bg-galactic-blue">Free Consultation</button>
+  </div>
+
+  <!-- TODO: overflow scroll and snap-to classes -->
+
+</section>
