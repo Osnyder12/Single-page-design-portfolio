@@ -49,7 +49,49 @@
     </p>
     <button class="text-white transition-colors duration-300 rounded-full bg-light-red h-14 px-11 hover:bg-galactic-blue focus:bg-galactic-blue">Free Consultation</button>
   </div>
-
   <!-- TODO: overflow scroll and snap-to classes -->
+</section>
+
+<section class="w-full max-w-2xl px-4 mx-auto mt-24 mb-8 space-y-10 text-center lg:px-0 lg:mb-20">
+  <div class="">
+    <h2 class="text-4xl font-bold">My Work</h2>
+  </div>
+
+  <div id="default-carousel" class="relative" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <!-- Item 1 -->
+      <div class="duration-700 ease-in-out" data-carousel-item>
+        <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
+        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+      </div>
+      <!-- Item 2 -->
+      <div class="duration-700 ease-in-out" data-carousel-item>
+        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+      </div>
+      <!-- Item 3 -->
+      <div class="duration-700 ease-in-out" data-carousel-item>
+        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+      </div>
+      <!-- Item 4 -->
+      <div class="duration-700 ease-in-out" data-carousel-item>
+        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+      </div>
+      <!-- Item 5 -->
+      <div class="duration-700 ease-in-out" data-carousel-item>
+        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slider indicators -->
+  <div class="flex flex-row items-center justify-center max-w-4xl gap-10 mx-auto md:gap-16 md:space-x-6">
+    <button type="button" class="flex w-16 h-16 bg-black rounded-full">
+      Left
+    </button>
+    <button type="button" class="flex w-16 h-16 bg-black rounded-full">
+      Right
+    </button>
+  </div>
 
 </section>
