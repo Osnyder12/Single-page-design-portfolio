@@ -63,34 +63,38 @@
         <!-- Item 1 -->
       <div class="duration-700 ease-in-out" data-carousel-item>
         <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+        <%= image_tag('image-slide-1.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
       </div>
       <!-- Item 2 -->
       <div class="duration-700 ease-in-out" data-carousel-item>
-        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+        <%= image_tag('image-slide-2.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
       </div>
       <!-- Item 3 -->
       <div class="duration-700 ease-in-out" data-carousel-item>
-        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+        <%= image_tag('image-slide-3.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
       </div>
       <!-- Item 4 -->
       <div class="duration-700 ease-in-out" data-carousel-item>
-        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+        <%= image_tag('image-slide-4.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
       </div>
       <!-- Item 5 -->
       <div class="duration-700 ease-in-out" data-carousel-item>
-        <%= image_tag('image-slide-1.jpg', class: "absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+        <%= image_tag('image-slide-5.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
       </div>
     </div>
   </div>
 
   <!-- Slider indicators -->
-  <div class="flex flex-row items-center justify-center max-w-4xl gap-10 mx-auto md:gap-16 md:space-x-6">
-    <button type="button" class="flex w-16 h-16 bg-black rounded-full">
-      Left
+  <div class="flex flex-row items-center justify-center max-w-4xl gap-4 mx-auto md:gap-16 md:space-x-6">
+    <button type="button" class="flex items-center justify-center w-16 h-16 bg-black rounded-full hover:bg-galactic-blue">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white bg-inherit">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+      </svg>
     </button>
-    <button type="button" class="flex w-16 h-16 bg-black rounded-full">
-      Right
+    <button type="button" class="flex items-center justify-center w-16 h-16 bg-black rounded-full hover:bg-galactic-blue">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white bg-inherit">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+      </svg>
     </button>
   </div>
 
