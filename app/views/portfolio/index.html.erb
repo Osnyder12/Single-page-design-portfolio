@@ -57,30 +57,27 @@
     <h2 class="text-4xl font-bold">My Work</h2>
   </div>
 
-  <div id="default-carousel" class="relative" data-carousel="static">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <!-- Item 1 -->
-      <div class="duration-700 ease-in-out" data-carousel-item>
-        <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-        <%= image_tag('image-slide-1.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
-      </div>
-      <!-- Item 2 -->
-      <div class="duration-700 ease-in-out" data-carousel-item>
-        <%= image_tag('image-slide-2.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
-      </div>
-      <!-- Item 3 -->
-      <div class="duration-700 ease-in-out" data-carousel-item>
-        <%= image_tag('image-slide-3.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
-      </div>
-      <!-- Item 4 -->
-      <div class="duration-700 ease-in-out" data-carousel-item>
-        <%= image_tag('image-slide-4.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
-      </div>
-      <!-- Item 5 -->
-      <div class="duration-700 ease-in-out" data-carousel-item>
-        <%= image_tag('image-slide-5.jpg', class: "rounded-small absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
-      </div>
+  <!-- Carousel wrapper -->
+  <div id="default-carousel" class="relative flex flex-row items-center justify-center h-56 space-x-2 rounded-lg md:h-96" data-carousel="static">
+      <!-- Item 1 -->
+    <div class="flex duration-700 ease-in-out" data-carousel-item>
+      <%= image_tag('image-slide-1.jpg', class: "absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+    </div>
+    <!-- Item 2 -->
+    <div class="flex duration-700 ease-in-out" data-carousel-item>
+      <%= image_tag('image-slide-2.jpg', class: "absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+    </div>
+    <!-- Item 3 -->
+    <div class="flex duration-700 ease-in-out" data-carousel-item>
+      <%= image_tag('image-slide-3.jpg', class: "absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+    </div>
+    <!-- Item 4 -->
+    <div class="flex duration-700 ease-in-out" data-carousel-item>
+      <%= image_tag('image-slide-4.jpg', class: "absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
+    </div>
+    <!-- Item 5 -->
+    <div class="flex duration-700 ease-in-out" data-carousel-item>
+      <%= image_tag('image-slide-5.jpg', class: "absolute block w-64 h-44 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2") %>
     </div>
   </div>
 
